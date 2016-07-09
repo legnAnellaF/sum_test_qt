@@ -1,9 +1,9 @@
+#include "sum.h"
 #include <iostream>
 
-using namespace std;
-
-int main(int argc, char *argv[])
+int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
+    int n;
+    scanf("%d", &n);
+    printf("%d\n", sum(n));
 }
